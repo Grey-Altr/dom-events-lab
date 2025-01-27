@@ -16,6 +16,12 @@ buttons.forEach((button) => {
     };
 });
 
+calculator.addEventListener('click', (event) => {
+    console.log(event.target.innerText);
 
+    if(event.target.classList.contains('number')) {
+        
+    }
+})
 
 /*-------------------------------- Functions --------------------------------*/
