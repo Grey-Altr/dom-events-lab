@@ -16,4 +16,16 @@ let operator = '';
 
 /*----------------------------- Event Listeners -----------------------------*/
 
+numButtons.forEach((button) => {
+  button.addEventListener('click', handleNumClick);
+});
+
+opButtons.forEach((button) => {
+  button.addEventListener('click', handleOpClick);
+});
+
+eqButton.addEventListener('click', handleEqClick);
+
+clearButton.addEventListener('click', handleClearClick);
+
 /*-------------------------------- Functions --------------------------------*/
